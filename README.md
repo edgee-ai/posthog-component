@@ -1,9 +1,9 @@
 <div align="center">
 <p align="center">
-  <a href="https://www.edgee.cloud">
+  <a href="https://www.edgee.ai">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.edgee.cloud/img/component-dark.svg">
-      <img src="https://cdn.edgee.cloud/img/component.svg" height="100" alt="Edgee">
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.edgee.ai/img/component-dark.svg">
+      <img src="https://cdn.edgee.ai/img/component.svg" height="100" alt="Edgee">
     </picture>
   </a>
 </p>
@@ -11,12 +11,12 @@
 
 <h1 align="center">PostHog component for Edgee</h1>
 
-[![Coverage Status](https://coveralls.io/repos/github/edgee-cloud/posthog-component/badge.svg)](https://coveralls.io/github/edgee-cloud/posthog-component)
-[![GitHub issues](https://img.shields.io/github/issues/edgee-cloud/posthog-component.svg)](https://github.com/edgee-cloud/posthog-component/issues)
-[![Edgee Component Registry](https://img.shields.io/badge/Edgee_Component_Registry-Public-green.svg)](https://www.edgee.cloud/edgee/posthog-component)
+[![Coverage Status](https://coveralls.io/repos/github/edgee-ai/posthog-component/badge.svg)](https://coveralls.io/github/edgee-ai/posthog-component)
+[![GitHub issues](https://img.shields.io/github/issues/edgee-ai/posthog-component.svg)](https://github.com/edgee-ai/posthog-component/issues)
+[![Edgee Component Registry](https://img.shields.io/badge/Edgee_Component_Registry-Public-green.svg)](https://www.edgee.ai/edgee/posthog-component)
 
 
-This component enables seamless integration between [Edgee](https://www.edgee.cloud) and [PostHog](https://posthog.com/), allowing you to collect and forward analytics events to your posthog instance.
+This component enables seamless integration between [Edgee](https://www.edgee.ai) and [PostHog](https://posthog.com/), allowing you to collect and forward analytics events to your posthog instance.
 
 
 ## Quick Start
@@ -93,4 +93,4 @@ make test.coverage[.html]
 Interested in contributing? Read our [contribution guidelines](./CONTRIBUTING.md)
 
 ### Security
-Report security vulnerabilities to [security@edgee.cloud](mailto:security@edgee.cloud)
+Report security vulnerabilities to [security@edgee.ai](mailto:security@edgee.ai)
