@@ -18,7 +18,7 @@ jobs:
         with:
           target: wasm32-wasip2 # WebAssembly target
           components: rustfmt
-      - uses: edgee-cloud/install-edgee-cli@v0.2.0
+      - uses: edgee-ai/install-edgee-cli@v0.2.0
       - run: edgee component wit
       - run: cargo check
 
@@ -31,7 +31,7 @@ jobs:
         with:
           components: rustfmt
           target: wasm32-wasip2 # WebAssembly target
-      - uses: edgee-cloud/install-edgee-cli@v0.2.0
+      - uses: edgee-ai/install-edgee-cli@v0.2.0
       - run: edgee component wit
       - uses: actions-rust-lang/rustfmt@v1
 
@@ -46,7 +46,7 @@ jobs:
         with:
           components: clippy
           target: wasm32-wasip2 # WebAssembly target
-      - uses: edgee-cloud/install-edgee-cli@v0.2.0
+      - uses: edgee-ai/install-edgee-cli@v0.2.0
       - run: edgee component wit
       - uses: wearerequired/lint-action@master
         with:
@@ -60,7 +60,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           target: wasm32-wasip2 # WebAssembly target
-      - uses: edgee-cloud/install-edgee-cli@v0.2.0
+      - uses: edgee-ai/install-edgee-cli@v0.2.0
       - run: edgee component build
       - name: Verify .wasm file exists
         run: |
@@ -77,7 +77,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           target: wasm32-wasip2 # WebAssembly target
-      - uses: edgee-cloud/install-edgee-cli@v0.2.0
+      - uses: edgee-ai/install-edgee-cli@v0.2.0
       - run: edgee component wit
       - run: make test
 
@@ -90,7 +90,7 @@ jobs:
         with:
           target: wasm32-wasip2 # WebAssembly target
       - uses: taiki-e/install-action@cargo-llvm-cov
-      - uses: edgee-cloud/install-edgee-cli@v0.2.0
+      - uses: edgee-ai/install-edgee-cli@v0.2.0
       - run: edgee component wit
       - run: make test.coverage.lcov
       - uses: coverallsapp/github-action@v2
